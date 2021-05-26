@@ -1,0 +1,12 @@
+
+platform :ios, '11.0'
+
+target 'TaskTracker' do
+
+  use_frameworks!
+  # https://firebase.google.com/docs/ios/setup#available-pods
+  pod 'SwiftGen'
+  pod 'SnapKit' 
+  pod 'Alamofire'
+  pod 'KeychainAccess'
+end

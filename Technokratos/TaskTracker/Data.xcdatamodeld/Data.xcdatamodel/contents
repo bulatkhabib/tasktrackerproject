@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CompleatedTask" representedClassName="CompleatedTask" syncable="YES" codeGenerationType="class">
+        <attribute name="countOfDay" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dateOfCreate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NoCompleatedTask" representedClassName="NoCompleatedTask" syncable="YES" codeGenerationType="class">
+        <attribute name="countOfDay" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dateOfCreate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES" codeGenerationType="class">
+        <attribute name="countOfDay" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="dateOfCreate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="interval" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CompleatedTask" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="NoCompleatedTask" positionX="-54" positionY="-9" width="128" height="74"/>
+        <element name="Task" positionX="-36" positionY="9" width="128" height="89"/>
+    </elements>
+</model>
