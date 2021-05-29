@@ -8,7 +8,7 @@
 Также нужно выбрать в правых вкладках Database и создать БД. Там указать свой логин и пароль от PostgreSQL.
 
 
-Стек технической реализации проекта: Язык разработки Swift; Работа с сетью: REST (URLSession, Codable, Alamofire); Архитектура: MVP; Поддержка iOS 11+; Использование KeychainAccess; Использование iOS Coordinator pattern; Использование TableView и StackView; 
+Стек технической реализации проекта: Язык разработки Swift; Работа с сетью: REST (URLSession, Codable, Alamofire); Архитектура: MVP; Поддержка iOS 11+; Использование KeychainAccess, CoreData; Использование iOS Coordinator pattern; Использование TableView и StackView; 
 Работа c CocoaPods;
 
 Для того чтобы приложение работало, нужен рабочий бэк. Серверная часть для этого приложения написан мной. Проверяем что установлен PostgresSql, а так же сборщик проекта Gradle
